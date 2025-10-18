@@ -110,18 +110,49 @@ These are **intentionally excluded** and must be added by you:
 
 ### Step 1: Get the Code
 
+**Choose ONE of these methods:**
+
+#### Option A: Download ZIP (No Git Required)
+
+1. Go to https://github.com/tildemark/skeleton-ci
+2. Click the green **"Code"** button
+3. Select **"Download ZIP"**
+4. Extract the ZIP file to your desired location
+5. Remember the folder path (e.g., `C:\Users\YourName\Projects\skeleton-ci`)
+
+#### Option B: Using Git (If Installed)
+
 ```bash
 # Clone this repository
-git clone <your-repo-url>
-cd <your-repo-name>
+git clone https://github.com/tildemark/skeleton-ci.git
+cd skeleton-ci
 ```
+
+**Don't have Git?** 
+- Windows: Download from https://git-scm.com/download/win
+- Or just use **Option A** above (Download ZIP)
 
 ### Step 2: Open in VS Code
 
+**Option A: Using VS Code GUI**
+1. Open Visual Studio Code
+2. Click **File** → **Open Folder**
+3. Navigate to the extracted/cloned folder
+4. Click **Select Folder**
+
+**Option B: Using Command Line (if in the folder already)**
+
 ```bash
-# Open VS Code in the project directory
+# Open VS Code in the current directory
 code .
 ```
+
+**Don't have `code` command?**
+- Open VS Code
+- Press `Ctrl+Shift+P` (Windows/Linux) or `Cmd+Shift+P` (Mac)
+- Type "Shell Command: Install 'code' command in PATH"
+- Press Enter
+- Restart your terminal
 
 ### Step 3: Start the DevContainer
 
