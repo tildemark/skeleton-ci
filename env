@@ -1,0 +1,46 @@
+#--------------------------------------------------------------------
+# ENVIRONMENT
+#--------------------------------------------------------------------
+
+CI_ENVIRONMENT = development
+
+#--------------------------------------------------------------------
+# APP
+#--------------------------------------------------------------------
+
+app.baseURL = 'http://localhost:8080/'
+app.indexPage = ''
+
+#--------------------------------------------------------------------
+# DATABASE
+#--------------------------------------------------------------------
+
+database.default.hostname = db
+database.default.database = codeigniter
+database.default.username = ci_user
+database.default.password = ci_password
+database.default.DBDriver = MySQLi
+database.default.DBPrefix =
+database.default.port = 3306
+database.default.DBDebug = true
+
+# Force TCP connection instead of socket
+database.default.DSN = ''
+
+# Disable SSL for local development
+database.default.encrypt = false
+database.default.verify = false
+
+#--------------------------------------------------------------------
+# MIGRATIONS
+#--------------------------------------------------------------------
+
+# Enable migrations
+# Set to true to enable migrations
+migrate.enabled = true
+
+# Table name for migrations
+migrate.table = migrations
+
+# Timestamp format for migration filenames
+migrate.timestampFormat = Y-m-d-His_
